@@ -1,0 +1,490 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #f5f5f5
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+    background: #534e52;
+
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #f2d974;
+    border-radius: 10px;
+    
+}
+.row{
+    padding: 0;
+    margin: 0;
+}
+/* inicio-nav */
+nav.abajo {
+    background: #534e52;
+    transition: 1.7s;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #e5e5e5;
+    font-size: 22px;
+    font-family: 'Neuton', serif;
+}
+
+
+.bg-transparent,
+.pt-5 {
+    transition: 1.7s;
+}
+
+.navbar-light .navbar-brand {
+    color: #f2d974;
+
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    text-align: center;
+    line-height: 0.8;
+}
+
+/* fin nav */
+/* inicio inicio/home */
+header {
+    min-height: 100vh;
+    min-height: 400px;
+    background-size: cover;
+
+}
+
+
+
+.separador {
+    border-bottom: 5px solid #965d62;
+    margin: 3% 0;
+    position: relative;
+}
+
+
+
+.fondo-inicio {
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/498/712/47/food-burger-burgers-fries-hd-wallpaper-preview.jpg);
+    background-color: rgb(50, 50, 50);
+    background-blend-mode: soft-light;
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+}
+
+.texto-inicio {
+    margin-right: 37%;
+    font-size: 1em;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+
+
+}
+
+
+.p-inicio {
+    padding-top: 1em;
+    border-top: 3px solid #534e52;
+    display: inline-block;
+}
+
+.titulo-inicio {
+    letter-spacing: 0.03em;
+    word-spacing: 0.5em;
+    font-size: 3.9em;
+    font-family: 'Cairo', sans-serif;
+    
+}
+
+
+
+
+/* fin inicio/home */
+
+/* inicio menu */
+
+
+
+
+.img-thumbnail{
+    background-color:#965d62;
+    border-color:#965d62;
+    
+}
+
+.imagendelmenu{
+    width: 50%;
+    float: left;
+    
+    
+    
+}
+
+
+.img-menu {
+    width: 100%;
+    opacity: 0.8;
+
+}
+
+.menu {
+    position: absolute;
+    z-index: 2;
+    display: inline-block;
+    left: 25%;
+    top: 45%;
+    color: black;
+    font-family: 'Neuton', serif;
+    font-size: 2em;
+    width: 50%;
+    height: 10%;
+    background-color: #ffffff93;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.menu:hover {
+    transform: translateY(.3px) scale(1.25);
+    transition: 1s;
+
+}
+
+.div-menu {
+    background-color: rgba(100, 100, 100, 0.3);
+    padding-top: 4%;
+    
+}
+
+
+
+/* fin menu */
+/* inicio historia */
+
+.carta-historia{
+    width: 80vw;
+
+}
+.imagen-historia{
+background: url(https://media.istockphoto.com/photos/close-up-of-appetising-beef-burger-chefs-hands-divide-into-half-picture-id987763028?k=20&m=987763028&s=170667a&w=0&h=Lrtxs2_ee7p0gg29VrYDwlxJbaHUqUWAtejYaKR1LUs=) no-repeat center center   ;
+height: 100%;
+width: auto;
+background-size: cover;
+}
+
+.titulo-carta{
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    color: #f2d974;
+    
+}
+
+
+.cuerpo-historia{
+    overflow-y: scroll;
+    height: 40em; 
+    width: 70%;
+    margin-left: 15%;
+}
+
+.cuerpo-historia::-webkit-scrollbar{
+    width: 7px;
+    height: 17px;
+
+}
+
+.cuerpo-historia::-webkit-scrollbar-thumb{
+    background-color: #f2d974;
+    border-radius: 5px;
+}
+
+.titulo-historia {
+    font-family: 'Dancing Script', cursive;
+    color: #f2d974;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: #534e52;
+
+}
+
+
+
+/* fin historia */
+/* inicio nosotros */
+
+.redes-container {
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+.redes-container ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+.redes-container ul li {
+    display: inline-block;
+    padding: 0 0.8em;
+    margin-bottom: 0.6em;
+    align-items: center;
+}
+
+.redes-container ul li a {
+    color: #ffff;
+    transition: 2s;
+}
+
+
+.redes-container ul li a i:hover {
+    transform: translateY(.3px) scale(1.25);
+    transition: 0.5s;
+}
+
+
+
+.subtitulo {
+    font-size: 20px;
+    color: goldenrod;
+    margin-left: 60px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.card {
+    background: rgb(54, 53, 53);
+    color: white;
+
+}
+
+
+
+.btn {
+    font-size: 15px;
+    margin-left: 160px;
+    border-color: black;
+    border-width: 3px;
+}
+
+/* fin nosotros */
+/* ?? */
+
+.container-contacto{
+    background-color: #212529;
+    padding-top: 25px;
+   
+}
+
+.carousel-item {
+    transition: 1s;
+
+}
+
+.contacto-form{
+    padding-top: 15px;
+}
+
+.texto-contacto{
+    color: white;
+
+}
+
+.scroll-section {
+    scroll-margin-top: 90px;
+}
+
+.contenedor-mapa {
+    
+    color: white;
+}
+
+.mapa {
+    padding-top: 37px;
+    width: 100%;
+    aspect-ratio: 1.2;
+}
+
+
+.titulo-mapa {
+    text-align: center;
+    
+}
+
+.footer-estilo {
+    background-color: #534e52;
+    height: 15em;
+    width: 100vw;
+
+}
+
+/* ?? */
+/*BURGUERS*/
+
+.fondo-burguers {
+    background-image: url(https://i.pinimg.com/564x/f2/80/1c/f2801c8884e5b2d3547fe18fb8c2d634.jpg);
+    background-color: rgb(50, 50, 50);
+    background-blend-mode: soft-light;
+    background-position: center;
+    height: 75vh;
+    width: 100%;
+    background-size: cover;
+    opacity: 0.95;
+}
+
+.texto-inicio-burguers {
+    
+    font-size: 1em;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    margin-top: 8em;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+.fondo-color-burguers{
+    background-color: #e5e5e5
+}
+
+
+
+.p-inicio-burguers{
+    padding: 8px;
+    opacity: 0.5;
+    letter-spacing: 0.08em;
+    font-family: 'Raleway', sans-serif;  
+    margin-left: 1%;
+    border-top: 2px solid #534e52;
+    display: inline-block;
+}
+
+h5 span{
+    float: right;
+}
+
+.titulo-menu-carta{
+    border-bottom: 2px dashed #965d62;
+    padding: 8px 0;
+}
+
+.boton-menu{
+    float: right;
+
+}
+
+.contenedor-imagen-burguers img{
+    border-radius: 3%;
+}
+
+.hamburguesas{
+    border-bottom: 2px solid #534e52;
+    padding: 0.3em 0 ;
+    color: black;
+    
+    font-family: 'Dancing Script', cursive;
+}
+
+.contenedor-hamburguesas{
+  
+    
+    margin: 5% 0;
+    
+
+}
+
+.i-burguer{
+    color: black;
+    font-size: 2em;
+    margin-top: 0.5em;
+}
+
+/* Fritas */
+
+.i-fries{
+    width: 2.2em;
+    margin-top: 0.5em;
+}
+
+.imagen-fritas{
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor-fritas{
+    padding: 0.8em 0 ;
+}
+
+
+/*login*/
+.body-login{
+    background-color: #f2d974;
+}
+
+.contenedor-login-titulo{
+    border-top: 1px solid #212529;
+    padding-bottom: 5%;
+}
+
+
+.div-form{
+    padding: 10% 0;
+    width: 100%;
+}
+
+form{
+    width: 70%;
+}
+
+.contenedor-login{
+    padding-bottom: 25%;
+    
+}
+
+.fondo-contenedor-login{
+    background-color: #e5e5e5;
+}
+
+.boton-login{
+ margin-right: 35%;
+ margin-top: 20%;
+border-color: #f2d974;
+color: #f2d974;
+}
+
+.login-texto{
+   margin-top: 35%;
+   font-size: 2em;
+   font-style: italic;
+   color: #f2d974;
+}
+  
+
+.titulo-login{
+
+    padding: 0.3em 0 ;
+    
+    font-size: 4em;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight:bold;
+}
+
+/* footer*/
+
+.texto-footer{
+    font-family: 'Dancing Script', cursive;
+    color: #f2d974;
+    font-size: 35px;
+}
