@@ -10,12 +10,13 @@ router.get('/', function (req, res, next) {
 
 router.post('/', async (req, res, next) => {
     try{
-        console.log(req.body);
+        
         var usuario = req.body.usuario;
         var password = req.body.password;
 
+       
 
-        var data = await usuariosModel.getUserAndPassword (usuario, password);
+        var data = await usuariosModel.getUserAndPassword(usuario, password);
 
         if (data != undefined) {
             res.redirect('/admin/novedades');

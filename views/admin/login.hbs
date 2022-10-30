@@ -4,27 +4,7 @@
 
 
 
-
-    <div class="container-fluid pt-3">
-        <div class="row d-flex justify-content-center">
-            <div class="col-6 contenedor-login-titulo">
-
-
-                <div class=" d-flex justify-content-center align-items-centers">
-                    <div class="badge ">
-                        <h3 class="titulo-login text-dark">
-                            Kinga Hamburguesería
-                        </h3>
-
-                    </div>
-
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <div class="container-fluid contenedor-login ">
+    <div class="container-fluid contenedor-login pt-5">
         <div class="row d-flex  justify-content-center">
 
             <div class="col-5 bg-dark">
@@ -32,28 +12,29 @@
             </div>
             <div class="col-4  bg-dark">
                 <h4 class="text-center  login-texto ">Login</h4>
+        
 
 
                 <div class="d-flex justify-content-center align-items-center" style="height: 60%;">
 
 
                     <form action="/admin/login" method="post" >
-                        <div class="mb-3  div-form">
-                            <input type="text" class="form-control login-form" id="staticEmail" name="usuario"
+                        <div class="mb-3 form-group  div-form">
+                            <input type="text"  class="form-control login-form" id="usuario" name="usuario"
                                 placeholder="Nombre de usuario">
 
                         </div>
                         <div class="mb-3  div-form">
 
 
-                            <input type="password" class="form-control login-form" id="inputPassword" name="clave"
+                            <input type="password" class="form-control login-form" id="password" name="password"
                                 placeholder="Clave">
 
                         </div>
                         <button type="submit" class="btn boton-menu btn-dark boton-login">Enviar</button>
                     </form>
                     {{#if error}}
-                        <p>Usuario o clave incorrectos</p>
+                        <p class="login-error text-light">Usuario o clave incorrectos</p>
                     {{/if}}
 
                 </div>
